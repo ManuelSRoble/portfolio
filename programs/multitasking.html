@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Source </></title>
+    <style>
+        body{
+            font-size: 1.2rem;   
+            font-family:Georgia, 'Times New Roman', Times, serif;   
+            margin-left: 4rem;     
+            background-color: rgb(215, 217, 220);
+        }
+        h1{
+            font-size: 3rem;
+        }
+        #content {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Código de la pagina Principal de Multitasking</h1>
+        </section>
+        <pre id="content"></pre>
+    </main>
+    <script>
+       window.onload = function() {
+         //Ruta al archivo de texto
+         var rutaArchivo = 'multitaskingPage.txt';
+
+         // hacer una solicitud HTTP GET para obtenerel contenido del archivo de texto
+         var solicitud = new XMLHttpRequest();
+         solicitud.open('GET', rutaArchivo, true);
+         solicitud.onreadystatechange = function() {
+            if(solicitud.readyState === 4){
+                if(solicitud.status === 200){
+                  //mostrar el contenido del archivo de texto dentro del elemento <pre>
+                  document.getElementById('content').textContent = solicitud.responseText;    
+                } else {
+                   //si hay un error al cargar el archivo mostrar un mensaje de error
+                   document.getElementById('content').textContent = 'Error al cargar el archivo.';
+                }
+            }
+         };
+         solicitud.send();
+       }
+    </script>
+</body>
+</html>
