@@ -1,255 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3d Porfolio Website HTML CSS and Javascript | Manu Developer</title>
     <!-- styles -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <!-- box icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- icon -->
-    <link rel="icon" type="images/portfolio_window_icon.png" href="images/aguila.ico">
-</head>
-<body>
-
+    <link
+      rel="icon"
+      type="images/portfolio_window_icon.png"
+      href="images/aguila.ico"
+    />
+    <!-- author -->
+    <meta name="author" content="Manuel Developer" />
+    <!-- description -->
+    <meta
+      name="description"
+      content="Portafolio (Proyectos realizados y conocimientos adquiridos)"
+    />
+  </head>
+  <body>
     <main class="wrapper">
-        <section class="cover cover-left"></section>
-        <section class="cover cover-right"></section>
-        <section class="book">
-            <!-- profile page -->
-            <section class="book-page page-left">
-              <div class="profile-page">
-                <img src="images/manu.jpg" alt="Manuel Suarez">
-                <h1>Manuel Suarez</h1>
-                <h3>Web Developer</h3>
+      <section class="cover cover-left"></section>
+      <section class="cover cover-right"></section>
+      <section class="book">
+        <!-- profile page -->
+        <section class="book-page page-left">
+          <div class="profile-page">
+            <img src="images/manu.jpg" alt="Manuel Suarez" />
+            <h1>Manuel Suarez</h1>
+            <h3>Web Developer</h3>
 
-                <ul class="social-media">
-                    <a href="https://github.com/ManuelSRoble" target="_blank"><i class='bx bxl-github'></i></a>
+            <ul class="social-media">
+              <a href="https://github.com/ManuelSRoble" target="_blank"
+                ><i class="bx bxl-github"></i
+              ></a>
 
-                    <a href="https://www.linkedin.com/in/manu-developer" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                </ul>
+              <a
+                href="https://www.linkedin.com/in/manu-developer"
+                target="_blank"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+            </ul>
 
-                <p>Hi, I'm Manuel Suarez, a Web Developer and desktop Application Programmer.</p>
+            <p>
+              Hi, I'm Manuel Suarez, a Web Developer and Desktop Application
+              Programmer.
+            </p>
 
-                <div class="btn-box">
-                   <a href="cv2024.pdf" download="assets/cv2024.pdf" class="btn pdfview">Download CV</a>
-                   <a href="#" class="btn contact-me">Contact Me</a>
-                </div>
-              </div> 
-            </section>
-
-            <!-- page 1 & 2 -->
-            <section class="book-page page-right turn" id="turn-1">
-              <!-- page 1 (work experience)   -->
-              <section class="page-front">
-                <h1 class="title">Work Experience</h1>
-                <article class="workeduc-box">
-                   <div class="workeduc-content">
-                     <span class="year"><i class='bx bxs-calendar'></i>2023 - 2024</span>
-                     <h3>Python Developer</h3>
-                     <p>I developed a program in python, in which you can enter and modify the sales made, in a text or CSV file or insert them in a mySQL database, through a graphical interface made with Tkinter. Additionally, Matplotlib was used to display sales bar graphs.</p>
-                     <small>Technologies used: Python, MySQL</small>
-                   </div>
-
-                   <div class="workeduc-content">
-                    <span class="year"><i class='bx bxs-calendar'></i>2023 - 2024</span>
-                    <h3>Web Developer</h3>
-                    <p>Multitasking is an interactive web page for the user that can be navigated, has a calculator, stopwatch and other applications developed with HTML, CSS and Javascript.</p>
-                  </div>
-
-                  <div class="workeduc-content">
-                    <span class="year"><i class='bx bxs-calendar'></i>2023 - 2024</span>
-                    <h3>Desktop Application Programmer</h3>
-                    <p>Tic-tac-toe desktop application connected to a structured MySQL database to store scores.</p>
-                    <small>Technologies used: Python, MySQL</small>
-                  </div>
-                </article>
-
-                <span class="number-page">1</span>
-
-                <!-- next button -->
-                <span class="nextprev-btn" data-page="turn-1">
-                    <i class='bx bx-chevron-right'></i>  
-                </span>
-              </section>
-
-              <!-- page 2 (education)   -->
-              <section class="page-back">
-                <h1 class="title">Education</h1>
-
-                <article class="workeduc-box">
-                  <div class="workeduc-content">
-                    <span class="year"><i class='bx bxs-calendar'></i>2022 - 2023</span>
-                    <h3>Cashier and Bank Administrative Assistant</h3>
-                    <p>Qualified to work in a bank and perform various tasks that require knowledge of the administration systems and procedures of the office, draft and proofread documents, maintain the filing system, and provide other administrative assistance.</p>
-                  </div>
-
-                  <div class="workeduc-content">
-                   <span class="year"><i class='bx bxs-calendar'></i>2023 - 2024</span>
-                   <h3>Senior Programming Technician</h3>
-                   <p>Design, code, test, verify documents, modify and maintain computer programs.</p>
-                   <p>I am currently studying, I have passed 50% of the subjects with an average of 9.36/10.</p>
-                 </div>
-
-               </article>
-
-                <span class="number-page">2</span>
-
-                <!-- prev button -->
-                <span class="nextprev-btn back" data-page="turn-1">
-                    <i class='bx bx-chevron-left'></i>  
-                </span>
-
-              </section>
-            </section>
-
-            <!-- page 3 & 4 -->
-            <section class="book-page page-right turn" id="turn-2">
-              <!-- page 3 (my services) -->
-              <section class="page-front">
-                <h1 class="title">My Services</h1>
-                <article class="services-box">
-                  <div class="services-content">
-                    <i class='bx bx-code-alt'></i>
-                    <h3>Web Developer</h3>
-                    <p>Website Creation and Maintenance.</p>
-                    <a href="#" class="btn">Read More</a>
-                  </div>
-
-                  <div class="services-content">
-                    <i class='bx bxs-paint'></i>
-                    <h3>Creative Desing</h3>
-                    <p>Perform the visual part of digital environments and materials.</p>
-                    <a href="#" class="btn">Read More</a>
-                  </div>
-
-                  <div class="services-content">
-                    <i class='bx bx-search'></i>
-                    <h3>SEO</h3>
-                    <p>Attracting traffic to a website.</p>
-                    <a href="#" class="btn">Read More</a>
-                  </div>
-                </article>
-
-                <span class="number-page">3</span>
-
-                <!-- next button -->
-                <span class="nextprev-btn" data-page="turn-2">
-                  <i class='bx bx-chevron-right'></i>  
-                </span>
-              </section>
-
-              <!-- page 4 (my skills) -->
-              <section class="page-back">
-                <h1 class="title">My Skills</h1>
-
-                <section class="skills-box">
-                  <article class="skills-content">
-                    <h3>Front-End</h3>
-                    <div class="content">
-                      <li><i class='bx bxl-html5'></i>HTML</li>
-                      <li><i class='bx bxl-css3'></i>CSS</li>
-                      <li><i class='bx bxl-javascript'></i>JS</li>
-                      <li><i class='bx bxl-react'></i>React</li>
-                      <li><i class='bx bxl-bootstrap'></i>Bootstrap</li>
-                    </div>
-                  </article>
-
-                  <article class="skills-content">
-                    <h3>Back-End</h3>
-                    <ul class="content">
-                      <li><i class='bx bxl-python'></i>Python</li>
-                      <li><i class='bx bxl-flask'></i>Flask</li>
-                    </ul>
-                  </article>
-
-                  <article class="skills-content">
-                    <h3>Languages</h3>
-                    <ul class="content idioms">
-                      <li><i class='bx bxs-user-voice'></i>Spanish: Native</li>
-                      <li><i class='bx bxs-user-voice'></i>English: Intermediate</li>
-                    </ul>
-                  </article>
-                </section>
-
-                <span class="number-page">4</span>
-
-                <!-- prev button -->
-                <span class="nextprev-btn back" data-page="turn-2">
-                    <i class='bx bx-chevron-left'></i>  
-                </span>
-              </section>
-            </section>
-
-            <!-- page 5 & 6 -->
-            <section class="book-page page-right turn" id="turn-3">
-              <!-- page 5 (Lastest project or my portfolio) -->
-              <section class="page-front">
-                <h1 class="title">Latest Project</h1>
-                <div class="portfolio-box">
-
-                  <div class="img-box">
-                    <img src="images/lastProjectMultitaskingPage.png" alt="desktop computer">
-                  </div>
-
-                  <div class="info-box">
-                    <div class="info-title">
-                      <h3>Multitask website</h3>
-                      <a href="https://manuelsroble.github.io/multitasking/" target="_blank">Live Preview<i class='bx bx-link-external'></i></a>
-                    </div>
-                    <p>Tech Used:</p>
-                    <p>Use HTML to structure and define the content of the page, CSS to stylize and design the graphical interface, and JavaScript to give the page interactivity and dynamism, allowing for a more fluid and attractive user experience.</p>
-                  </div>
-  
-                  <div class="btn-box">
-                    <a href="programs/multitasking.html" target="_blank" class="btn">Source Code</a>
-                    <a href="https://github.com/ManuelSRoble" target="_blank" class="btn">More Projects</a>
-                  </div>
-                </div>
-
-                <span class="number-page">5</span>
-
-                <!-- next button -->
-                <span class="nextprev-btn" data-page="turn-3">
-                  <i class='bx bx-chevron-right'></i>  
-                </span>                
-              </section>
-
-              <!-- page 6 (contact me) -->
-              <section class="page-back">
-                <h1 class="title">Contact Me!</h1>
-
-                <article class="contact-box">
-                  <form action="https://formsubmit.co/c091a8492457e3eb998e528abf362090" method="POST">
-                    <input type="text" name="name" class="field" placeholder="Full Name" required>
-
-                    <input type="mail" name="email" class="field" placeholder="Email Address" required>
-
-                    <textarea name="comments" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
-
-                    <input type="submit" class="btn" value="Send Message">
-                  </form>
-                </article>
-
-                <span class="number-page">6</span>
-
-                <!-- prev button -->
-                <span class="nextprev-btn back" data-page="turn-3">
-                    <i class='bx bx-chevron-left'></i>  
-                </span>
-
-                <a href="#" class="back-profile">
-                  <p>Profile</p>
-                  <i class='bx bxs-user'></i>
-                </a>
-              </section>
-
-            </section>
-
+            <div class="btn-box">
+              <a href="cv.html" class="btn pdfview">Download CV</a>
+              <a href="#" class="btn contact-me">Contact Me</a>
+            </div>
+          </div>
         </section>
+
+        <!-- page 1 & 2 -->
+        <section class="book-page page-right turn" id="turn-1">
+          <!-- page 1 (work experience)   -->
+          <section class="page-front">
+            <h1 class="title">Work Experience</h1>
+            <article class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>2023 - 2024</span
+                >
+                <h3>Python Developer</h3>
+                <p>
+                  I developed a program in python, in which you can enter and
+                  modify the sales made, in a text or CSV file or insert them in
+                  a mySQL database, through a graphical interface made with
+                  Tkinter. Additionally, Matplotlib was used to display sales
+                  bar graphs.
+                </p>
+                <small>Technologies used: Python, MySQL</small>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>2023 - 2024</span
+                >
+                <h3>Web Developer</h3>
+                <p>
+                  Multitasking is an interactive web page for the user that can
+                  be navigated, has a calculator, stopwatch and other
+                  applications developed with HTML, CSS and Javascript.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>2023 - 2024</span
+                >
+                <h3>Desktop Application Programmer</h3>
+                <p>
+                  Tic-tac-toe desktop application connected to a structured
+                  MySQL database to store scores.
+                </p>
+                <small>Technologies used: Python, MySQL</small>
+              </div>
+            </article>
+
+            <span class="number-page">1</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-1">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </section>
+
+          <!-- page 2 (education)   -->
+          <section class="page-back">
+            <h1 class="title">Education</h1>
+
+            <article class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>2022 - 2023</span
+                >
+                <h3>Cashier and Bank Administrative Assistant</h3>
+                <p>
+                  Qualified to work in a bank and perform various tasks that
+                  require knowledge of the administration systems and procedures
+                  of the office, draft and proofread documents, maintain the
+                  filing system, and provide other administrative assistance.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>2023 - 2024</span
+                >
+                <h3>Senior Programming Technician</h3>
+                <p>
+                  Design, code, test, verify documents, modify and maintain
+                  computer programs.
+                </p>
+                <p>
+                  I am currently studying, I have passed 50% of the subjects
+                  with an average of 9.36/10.
+                </p>
+              </div>
+            </article>
+
+            <span class="number-page">2</span>
+
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-1">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+          </section>
+        </section>
+
+        <!-- page 3 & 4 -->
+        <section class="book-page page-right turn" id="turn-2">
+          <!-- page 3 (my services) -->
+          <section class="page-front">
+            <h1 class="title">My Services</h1>
+            <article class="services-box">
+              <div class="services-content">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Developer</h3>
+                <p>Website Creation and Maintenance.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bxs-paint"></i>
+                <h3>Creative Desing</h3>
+                <p>
+                  Perform the visual part of digital environments and materials.
+                </p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-search"></i>
+                <h3>SEO</h3>
+                <p>Attracting traffic to a website.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </article>
+
+            <span class="number-page">3</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-2">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </section>
+
+          <!-- page 4 (my skills) -->
+          <section class="page-back">
+            <h1 class="title">My Skills</h1>
+
+            <section class="skills-box">
+              <article class="skills-content">
+                <h3>Front-End</h3>
+                <div class="content">
+                  <li><i class="bx bxl-html5"></i>HTML</li>
+                  <li><i class="bx bxl-css3"></i>CSS</li>
+                  <li><i class="bx bxl-javascript"></i>JS</li>
+                  <li><i class="bx bxl-react"></i>React</li>
+                  <li><i class="bx bxl-bootstrap"></i>Bootstrap</li>
+                </div>
+              </article>
+
+              <article class="skills-content">
+                <h3>Back-End</h3>
+                <ul class="content">
+                  <li><i class="bx bxl-python"></i>Python</li>
+                  <li><i class="bx bxl-flask"></i>Flask</li>
+                </ul>
+              </article>
+
+              <article class="skills-content">
+                <h3>Languages</h3>
+                <ul class="content idioms">
+                  <li><i class="bx bxs-user-voice"></i>Spanish: Native</li>
+                  <li>
+                    <i class="bx bxs-user-voice"></i>English: Intermediate
+                  </li>
+                </ul>
+              </article>
+            </section>
+
+            <span class="number-page">4</span>
+
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-2">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+          </section>
+        </section>
+
+        <!-- page 5 & 6 -->
+        <section class="book-page page-right turn" id="turn-3">
+          <!-- page 5 (Lastest project or my portfolio) -->
+          <section class="page-front">
+            <h1 class="title">Latest Project</h1>
+            <div class="portfolio-box">
+              <div class="img-box">
+                <img
+                  src="images/lastProjectMultitaskingPage.png"
+                  alt="desktop computer"
+                />
+              </div>
+
+              <div class="info-box">
+                <div class="info-title">
+                  <h3>Multitask website</h3>
+                  <a
+                    href="https://manuelsroble.github.io/multitasking/"
+                    target="_blank"
+                    >Live Preview<i class="bx bx-link-external"></i
+                  ></a>
+                </div>
+                <p>Tech Used:</p>
+                <p>
+                  Use HTML to structure and define the content of the page, CSS
+                  to stylize and design the graphical interface, and JavaScript
+                  to give the page interactivity and dynamism, allowing for a
+                  more fluid and attractive user experience.
+                </p>
+              </div>
+
+              <div class="btn-box">
+                <a href="programs/multitasking.html" target="_blank" class="btn"
+                  >Source Code</a
+                >
+                <a
+                  href="https://github.com/ManuelSRoble"
+                  target="_blank"
+                  class="btn"
+                  >More Projects</a
+                >
+              </div>
+            </div>
+
+            <span class="number-page">5</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-3">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </section>
+
+          <!-- page 6 (contact me) -->
+          <section class="page-back">
+            <h1 class="title">Contact Me!</h1>
+
+            <article class="contact-box">
+              <form
+                action="https://formsubmit.co/c091a8492457e3eb998e528abf362090"
+                method="POST"
+              >
+                <input
+                  type="text"
+                  name="name"
+                  class="field"
+                  placeholder="Full Name"
+                  required
+                />
+
+                <input
+                  type="mail"
+                  name="email"
+                  class="field"
+                  placeholder="Email Address"
+                  required
+                />
+
+                <textarea
+                  name="comments"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="field"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+
+                <input type="submit" class="btn" value="Send Message" />
+              </form>
+            </article>
+
+            <span class="number-page">6</span>
+
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-3">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+
+            <a href="#" class="back-profile">
+              <p>Profile</p>
+              <i class="bx bxs-user"></i>
+            </a>
+          </section>
+        </section>
+      </section>
     </main>
-    
+
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
