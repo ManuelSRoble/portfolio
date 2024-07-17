@@ -1,4 +1,4 @@
-document.body.style.zoom = "80%";
+// document.body.style.zoom = "80%";
 //turn pages when click next or prev button
 const pageTurnBtn = document.querySelectorAll(".nextprev-btn");
 

@@ -36,6 +36,7 @@ body {
 }
 
 .wrapper {
+  zoom: 80%;
   position: relative;
   width: 70rem;
   height: 45rem;
@@ -474,30 +475,471 @@ ul.content li {
 
 /*responsive*/
 @media (max-width: 600px) {
-  .wrapper {
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
+  * {
+    margin: initial;
+    padding: initial;
+    box-sizing: initial;
+    /* font-weight: initial;
+    text-decoration: initial;
+    border: initial; */
+    /* outline: initial; */
+    /* font-family: initial; */
   }
-  .cover.cover-left,
+
+  /* :root {
+    --bg-color: initial;
+    --main-color: initial;
+    --text-color: initial;
+    --second-text-color: initial;
+    --white-color: initial;
+    --cover-color: initial;
+    --pages-color: initial;
+    --border: initial;
+    --box-shadow: initial;
+  } */
+
+  body {
+    display: initial;
+    align-items: initial;
+    justify-content: initial;
+    min-height: initial;
+    background: initial;
+    color: initial;
+    overflow: initial;
+    min-width: initial;
+  }
+
+  .wrapper {
+    zoom: 100%;
+    position: initial;
+    width: initial;
+    height: initial;
+    padding: initial;
+    perspective: initial;
+    animation: initial;
+  }
+
+  .cover {
+    position: initial;
+    top: initial;
+    left: initial;
+    width: initial;
+    height: initial;
+    background: initial;
+    box-shadow: initial;
+    border-top-left-radius: initial;
+    border-bottom-left-radius: initial;
+    transform-origin: initial;
+  }
+
+  .cover.cover-left {
+    z-index: initial;
+  }
+
   .cover.cover-right {
+    z-index: initial;
+    transition: initial;
+  }
+
+  .cover.cover-right.turn {
+    transform: initial;
+  }
+
+  .book {
+    position: initial;
+    width: initial;
+    height: initial;
+    display: initial;
+    perspective: initial;
+  }
+
+  .book .book-page {
+    position: initial;
+    width: initial;
+    height: initial;
+    background: initial;
+    box-shadow: initial;
+    display: initial;
+    padding: initial;
+  }
+
+  .book-page.page-left {
+    box-shadow: initial;
+  }
+
+  /* .profile-page {
+    display: initial;
+    flex-direction: initial;
+    justify-content: initial;
+    align-items: initial;
+  } */
+
+  /* .profile-page h1 {
+    font-size: initial;
+    line-height: initial;
+  } */
+  /* 
+  .profile-page h3 {
+    font-size: initial;
+    color: initial;
+  } */
+
+  /* .profile-page .social-media {
+    margin: initial;
+  } */
+  /* 
+  .profile-page .social-media a {
+    display: initial;
+    justify-content: initial;
+    align-items: initial;
+    width: initial;
+    height: initial;
+    background: initial;
+    border: initial;
+    border-radius: initial;
+    font-size: initial;
+    color: initial;
+    margin: initial;
+    transition: initial;
+  } */
+
+  /* .profile-page .social-media a:hover {
+    background: initial;
+    color: initial;
+  } */
+
+  /* .profile-page p {
+    text-align: initial;
+  } */
+
+  /* .profile-page .btn-box {
+    margin-top: initial;
+  } */
+
+  /* .btn {
+    display: initial;
+    justify-content: initial;
+    align-items: initial;
+    width: initial;
+    height: initial;
+    background: initial;
+    border: initial;
+    border-radius: initial;
+    font-size: initial;
+    color: initial;
+    font-weight: initial;
+    margin: initial;
+    transition: initial;
+  } */
+
+  /* .btn:hover {
+    background: initial;
+    color: initial;
+  } */
+
+  /* .btn-box .btn:nth-child(2) {
+    background: initial;
+    color: initial;
+  } */
+
+  /* .btn-box .btn:nth-child(2):hover {
+    background: initial;
+    color: initial;
+  } */
+
+  .book-page.page-right {
+    position: initial;
+    right: initial;
+    transform-style: initial;
+    transform-origin: initial;
+    transition: initial;
+  }
+
+  .book-page.page-right.turn {
+    transform: initial;
+  }
+
+  .book-page .page-front,
+  .book-page .page-back {
+    position: initial;
+    /* top: initial; */
+    /* left: initial; */
+    width: initial;
+    height: initial;
+    background: initial;
+    /* padding: initial; */
+  }
+
+  .book-page .page-front {
+    transform: initial;
+  }
+
+  .book-page .page-back {
+    transform: initial;
+  }
+
+  /* .title {
+    text-align: initial;
+    margin-bottom: initial;
+    font-size: initial;
+  } */
+
+  /* .workeduc-box {
+    border-left: initial;
+  } */
+
+  /* .workeduc-box .workeduc-content {
+    position: initial;
+    padding-left: initial;
+    margin-bottom: initial;
+  } */
+
+  /* .workeduc-box .workeduc-content::before {
+    content: initial;
+    position: initial;
+    top: initial;
+    left: initial;
+    width: initial;
+    height: initial;
+    background: initial;
+    border-radius: initial;
+  } */
+
+  .workeduc-content .year {
+    color: initial;
+  }
+
+  .workeduc-content .year i {
+    margin-right: initial;
+  }
+
+  .number-page {
     display: none;
   }
-  body {
-    display: block;
-    background: #333;
-    zoom: 100%;
+
+  .nextprev-btn {
+    display: none;
   }
-  .book {
-    background: blue;
-    flex-direction: column;
-    max-width: 100vw;
+
+  .nextprev-btn:hover {
+    color: initial;
   }
-  .book-page {
-    width: 100%;
-    background-color: red;
+
+  .nextprev-btn.back {
+    left: initial;
   }
-  .book-page.page-left {
-    width: 100%;
+
+  .services-box {
+    display: initial;
+    flex-wrap: initial;
+    gap: initial;
+  }
+
+  .services-box .services-content {
+    flex: initial;
+    border: initial;
+    border-radius: initial;
+    padding: initial;
+    text-align: initial;
+    transition: initial;
+  }
+
+  .services-box .services-content:hover {
+    box-shadow: initial;
+  }
+
+  .services-content i {
+    font-size: initial;
+    color: initial;
+  }
+
+  .services-content h3 {
+    font-size: initial;
+  }
+
+  .services-content p {
+    margin: initial;
+  }
+
+  .services-content .btn {
+    width: initial;
+    height: initial;
+  }
+
+  ul.content {
+    display: initial;
+    list-style: initial;
+    margin: initial;
+    padding: initial;
+  }
+
+  ul.content li {
+    display: initial;
+  }
+
+  .skills-box {
+    display: initial;
+    flex-wrap: initial;
+    gap: initial;
+  }
+
+  .skills-box .skills-content {
+    flex: initial;
+  }
+
+  .skills-content h3 {
+    font-size: initial;
+    line-height: initial;
+    margin-bottom: initial;
+  }
+
+  .skills-content .content {
+    display: initial;
+    flex-wrap: initial;
+    gap: initial;
+  }
+
+  .skills-content .content li {
+    display: initial;
+    flex-direction: initial;
+    justify-content: initial;
+    align-items: initial;
+    width: initial;
+    height: initial;
+    border: initial;
+    border-radius: initial;
+    font-weight: initial;
+    transition: initial;
+  }
+
+  .skills-content .content li:hover {
+    box-shadow: initial;
+  }
+  /* 
+  .skills-content .content li i {
+    font-size: initial;
+    color: initial;
+  } */
+
+  /* .skills-content .idioms li {
+    width: initial;
+    height: initial;
+  } */
+
+  .portfolio-box .img-box {
+    box-sizing: border-box;
+    /* width: initial; */
+    /* object-fit: initial;
+    transition: initial; */
+  }
+
+  /* .portfolio-box .img-box:hover img {
+    transform: initial;
+  } */
+
+  .portfolio-box .info-box {
+    margin: initial;
+  }
+
+  .portfolio-box .info-box .info-title {
+    display: initial;
+    justify-content: initial;
+    align-items: initial;
+    margin-bottom: initial;
+  }
+
+  .portfolio-box .info-box .info-title h3 {
+    font-size: initial;
+  }
+
+  .portfolio-box .info-box .info-title a {
+    display: initial;
+    align-items: initial;
+    color: initial;
+  }
+
+  .portfolio-box .info-box .info-title a i {
+    margin-left: initial;
+  }
+
+  .portfolio-box .info-box p:nth-of-type(1) {
+    font-weight: initial;
+  }
+
+  .portfolio-box .btn-box {
+    display: initial;
+    justify-content: initial;
+  }
+
+  .portfolio-box .btn-box .btn {
+    margin: initial;
+  }
+
+  .contact-box {
+    text-align: initial;
+  }
+
+  .contact-box .field {
+    width: initial;
+    background: initial;
+    border: initial;
+    border-radius: initial;
+    padding: initial;
+    font-size: initial;
+    color: initial;
+    font-weight: initial;
+    margin-bottom: initial;
+  }
+
+  .contact-box .field::placeholder {
+    color: initial;
+  }
+
+  .contact-box textarea {
+    resize: initial;
+    height: initial;
+  }
+
+  .contact-box .btn {
+    cursor: initial;
+  }
+
+  .back-profile {
+    position: initial;
+    bottom: initial;
+    right: initial;
+    width: initial;
+    height: initial;
+    background: initial;
+    border: initial;
+    border-radius: initial;
+    font-size: initial;
+    color: initial;
+    display: initial;
+    justify-content: initial;
+    align-items: initial;
+    transition: initial;
+  }
+
+  .back-profile:hover {
+    background: initial;
+    color: initial;
+  }
+
+  .back-profile p {
+    position: initial;
+    top: initial;
+    left: initial;
+    transform: initial;
+    font-size: initial;
+    color: initial;
+    opacity: initial;
+    transition: initial;
+  }
+
+  .back-profile:hover p {
+    opacity: initial;
+    transform: initial;
+    top: initial;
   }
 }
