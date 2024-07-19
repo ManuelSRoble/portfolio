@@ -478,25 +478,13 @@ ul.content li {
   * {
     margin: initial;
     padding: initial;
-    box-sizing: initial;
+    /* box-sizing: initial; */
     /* font-weight: initial;
     text-decoration: initial;
     border: initial; */
     /* outline: initial; */
     /* font-family: initial; */
   }
-
-  /* :root {
-    --bg-color: initial;
-    --main-color: initial;
-    --text-color: initial;
-    --second-text-color: initial;
-    --white-color: initial;
-    --cover-color: initial;
-    --pages-color: initial;
-    --border: initial;
-    --box-shadow: initial;
-  } */
 
   body {
     display: initial;
@@ -567,29 +555,29 @@ ul.content li {
     box-shadow: initial;
   }
 
-  /* .profile-page {
-    display: initial;
-    flex-direction: initial;
-    justify-content: initial;
-    align-items: initial;
-  } */
+  .profile-page {
+    padding: 1.5rem 2rem;
+    margin-top: 1rem;
+  }
 
-  /* .profile-page h1 {
-    font-size: initial;
-    line-height: initial;
-  } */
+  .profile-page h1 {
+    text-align: center;
+    /* font-size: initial;
+    line-height: initial; */
+  }
   /* 
   .profile-page h3 {
     font-size: initial;
     color: initial;
   } */
 
-  /* .profile-page .social-media {
-    margin: initial;
-  } */
-  /* 
-  .profile-page .social-media a {
-    display: initial;
+  .profile-page .btn-box {
+    text-align: center;
+    /* margin-top: initial; */
+  }
+
+  .btn {
+    /* display: initial;
     justify-content: initial;
     align-items: initial;
     width: initial;
@@ -599,38 +587,10 @@ ul.content li {
     border-radius: initial;
     font-size: initial;
     color: initial;
-    margin: initial;
-    transition: initial;
-  } */
-
-  /* .profile-page .social-media a:hover {
-    background: initial;
-    color: initial;
-  } */
-
-  /* .profile-page p {
-    text-align: initial;
-  } */
-
-  /* .profile-page .btn-box {
-    margin-top: initial;
-  } */
-
-  /* .btn {
-    display: initial;
-    justify-content: initial;
-    align-items: initial;
-    width: initial;
-    height: initial;
-    background: initial;
-    border: initial;
-    border-radius: initial;
-    font-size: initial;
-    color: initial;
-    font-weight: initial;
-    margin: initial;
-    transition: initial;
-  } */
+    font-weight: initial; */
+    margin: 1rem;
+    /* transition: initial; */
+  }
 
   /* .btn:hover {
     background: initial;
@@ -705,14 +665,6 @@ ul.content li {
     border-radius: initial;
   } */
 
-  .workeduc-content .year {
-    color: initial;
-  }
-
-  .workeduc-content .year i {
-    margin-right: initial;
-  }
-
   .number-page {
     display: none;
   }
@@ -721,50 +673,50 @@ ul.content li {
     display: none;
   }
 
-  .nextprev-btn:hover {
+  /* .nextprev-btn:hover {
     color: initial;
   }
 
   .nextprev-btn.back {
     left: initial;
-  }
+  } */
 
-  .services-box {
+  /* .services-box {
     display: initial;
     flex-wrap: initial;
     gap: initial;
-  }
+  } */
 
-  .services-box .services-content {
+  /* .services-box .services-content {
     flex: initial;
     border: initial;
     border-radius: initial;
     padding: initial;
     text-align: initial;
     transition: initial;
-  }
+  } */
 
-  .services-box .services-content:hover {
+  /* .services-box .services-content:hover {
     box-shadow: initial;
-  }
+  } */
 
-  .services-content i {
+  /* .services-content i {
     font-size: initial;
     color: initial;
-  }
+  } */
 
-  .services-content h3 {
+  /* .services-content h3 {
     font-size: initial;
-  }
+  } */
 
-  .services-content p {
+  /* .services-content p {
     margin: initial;
-  }
+  } */
 
-  .services-content .btn {
+  /* .services-content .btn {
     width: initial;
     height: initial;
-  }
+  } */
 
   ul.content {
     display: initial;
@@ -777,29 +729,29 @@ ul.content li {
     display: initial;
   }
 
-  .skills-box {
+  /* .skills-box {
     display: initial;
     flex-wrap: initial;
     gap: initial;
-  }
+  } */
 
   .skills-box .skills-content {
     flex: initial;
   }
 
-  .skills-content h3 {
+  /* .skills-content h3 {
     font-size: initial;
     line-height: initial;
     margin-bottom: initial;
-  }
+  } */
 
-  .skills-content .content {
+  /* .skills-content .content {
     display: initial;
     flex-wrap: initial;
     gap: initial;
-  }
+  } */
 
-  .skills-content .content li {
+  /* .skills-content .content li {
     display: initial;
     flex-direction: initial;
     justify-content: initial;
@@ -810,11 +762,11 @@ ul.content li {
     border-radius: initial;
     font-weight: initial;
     transition: initial;
-  }
+  } */
 
-  .skills-content .content li:hover {
+  /* .skills-content .content li:hover {
     box-shadow: initial;
-  }
+  } */
   /* 
   .skills-content .content li i {
     font-size: initial;
@@ -837,49 +789,44 @@ ul.content li {
     transform: initial;
   } */
 
-  .portfolio-box .info-box {
+  /* .portfolio-box .info-box {
     margin: initial;
-  }
+  } */
 
-  .portfolio-box .info-box .info-title {
+  /* .portfolio-box .info-box .info-title {
     display: initial;
     justify-content: initial;
     align-items: initial;
     margin-bottom: initial;
-  }
+  } */
 
-  .portfolio-box .info-box .info-title h3 {
+  /* .portfolio-box .info-box .info-title h3 {
     font-size: initial;
-  }
+  } */
 
-  .portfolio-box .info-box .info-title a {
+  /* .portfolio-box .info-box .info-title a {
     display: initial;
     align-items: initial;
     color: initial;
-  }
-
-  .portfolio-box .info-box .info-title a i {
+  } */
+  /* .portfolio-box .info-box .info-title a i {
     margin-left: initial;
-  }
-
-  .portfolio-box .info-box p:nth-of-type(1) {
+  } */
+  /* .portfolio-box .info-box p:nth-of-type(1) {
     font-weight: initial;
-  }
-
-  .portfolio-box .btn-box {
+  } */
+  /* .portfolio-box .btn-box {
     display: initial;
     justify-content: initial;
-  }
-
-  .portfolio-box .btn-box .btn {
+  } */
+  /* .portfolio-box .btn-box .btn {
     margin: initial;
-  }
-
+  } */
   .contact-box {
     text-align: initial;
   }
 
-  .contact-box .field {
+  /* .contact-box .field {
     width: initial;
     background: initial;
     border: initial;
@@ -889,44 +836,44 @@ ul.content li {
     color: initial;
     font-weight: initial;
     margin-bottom: initial;
-  }
+  } */
 
   .contact-box .field::placeholder {
     color: initial;
   }
 
-  .contact-box textarea {
+  /* .contact-box textarea {
     resize: initial;
     height: initial;
-  }
+  } */
 
-  .contact-box .btn {
+  /* .contact-box .btn {
     cursor: initial;
-  }
+  } */
 
   .back-profile {
-    position: initial;
+    position: relative;
     bottom: initial;
-    right: initial;
-    width: initial;
-    height: initial;
-    background: initial;
-    border: initial;
-    border-radius: initial;
-    font-size: initial;
+    right: -90%;
+    /* width: initial;
+    height: initial; */
+    /* background: red; */
+    /* border: initial; */
+    /* border-radius: initial; */
+    /* font-size: initial;
     color: initial;
     display: initial;
     justify-content: initial;
     align-items: initial;
-    transition: initial;
+    transition: initial; */
   }
 
-  .back-profile:hover {
+  /* .back-profile:hover {
     background: initial;
     color: initial;
-  }
+  } */
 
-  .back-profile p {
+  /* .back-profile p {
     position: initial;
     top: initial;
     left: initial;
@@ -935,11 +882,11 @@ ul.content li {
     color: initial;
     opacity: initial;
     transition: initial;
-  }
+  } */
 
-  .back-profile:hover p {
+  /* .back-profile:hover p {
     opacity: initial;
     transform: initial;
     top: initial;
-  }
+  } */
 }
